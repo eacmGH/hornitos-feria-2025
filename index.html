@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hornitos - Feria de la Comida Regional 2025</title>
+  <!-- Incluye Tailwind CSS desde CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Incluye la fuente 'Poppins' desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Define la fuente 'Poppins' para el cuerpo del documento */
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#FF8C00] min-h-screen flex flex-col">
+
+  <!-- Header - Barra superior con nueva paleta de colores -->
+  <header class="bg-[#1E3F66] p-4 flex justify-between items-center rounded-b-lg shadow-md transition-all duration-300 ease-in-out">
+    <div class="flex items-center space-x-2">
+      <div class="bg-white p-1 rounded-lg shadow-sm">
+        <img src="assets/img/unnamed (1).png" alt="Logo Hornitos" class="h-20">
+      </div>
+    </div>
+    <nav class="flex items-center space-x-2 text-[#FFFFFF] font-medium">
+      <!-- Enlaces de navegación específicos para el evento gastronómico -->
+      <a href="#" class="p-2 rounded-md hover:bg-[#DC143C] hover:text-white transition-colors duration-300">Inicio</a>
+      <a href="#" class="p-2 rounded-md hover:bg-[#DC143C] hover:text-white transition-colors duration-300">Gastronomía</a>
+      <a href="#" class="p-2 rounded-md hover:bg-[#DC143C] hover:text-white transition-colors duration-300">Espectáculos</a>
+      <a href="#" class="p-2 rounded-md hover:bg-[#DC143C] hover:text-white transition-colors duration-300">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Contenedor principal con sidebar y contenido -->
+  <!-- Se agrega flex-grow para que el contenido ocupe el espacio disponible -->
+  <div class="p-6 md:p-10 flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 flex-grow">
+    
+    <!-- Sidebar - Barra lateral izquierda -->
+    <aside class="w-full md:w-1/4 flex-shrink-0 flex flex-col space-y-4">
+      <!-- Bloques de la barra lateral con imágenes y efecto hover -->
+      <img src="assets/img/ImgFuncion-20250818102918.png" alt="Función 1 - Hornitos 2025" class="h-40 w-full object-cover rounded-lg shadow-sm transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+      <img src="assets/img/ImgFuncion-20250812140606.png" alt="Función 2 - Hornitos 2025" class="h-40 w-full object-cover rounded-lg shadow-sm transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+      <img src="assets/img/ImgFuncion-20250812135906.png" alt="Función 3 - Hornitos 2025" class="h-40 w-full object-cover rounded-lg shadow-sm transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+      <img src="assets/img/ImgFuncion-20250812135737.png" alt="Función 4 - Hornitos 2025" class="h-40 w-full object-cover rounded-lg shadow-sm transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+    </aside>
+
+    <!-- Contenido principal con nueva paleta de colores -->
+    <main class="w-full md:w-3/4 bg-[#1E3F66] p-6 rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-lg">
+      <!-- Encabezado principal del evento -->
+      <header class="mb-6">
+        <h1 class="text-2xl font-bold text-[#FFFFFF] mb-2">
+          🎉 Hornitos - Feria de la Comida Regional 2025
+        </h1>
+        <div class="text-[#00CED1] space-y-1">
+          <p class="flex items-center">
+            <span class="mr-2">📍</span>
+            <em>Centro Cultural Manuel Belgrano, San Salvador de Jujuy</em>
+          </p>
+          <p class="flex items-center">
+            <span class="mr-2">📅</span>
+            <em>Del 22 al 24 de agosto</em>
+          </p>
+        </div>
+      </header>
+
+      <!-- Descripción principal -->
+      <section class="mb-6">
+        <p class="text-[#FFFFFF] leading-relaxed text-justify">
+          Hornitos es mucho más que una feria gastronómica: es una celebración vibrante de la identidad jujeña, donde la tradición, el sabor y el arte se fusionan en un encuentro inolvidable. Durante tres días, el Centro Cultural Manuel Belgrano se transforma en el corazón cultural de la región, ofreciendo una experiencia única para locales y visitantes.
+        </p>
+      </section>
+
+      <!-- Secciones del evento -->
+      <div class="space-y-6">
+        <!-- Gastronomía Regional -->
+        <section>
+          <h3 class="text-lg font-semibold text-[#00CED1] mb-2 flex items-center">
+            <span class="mr-2">🍲</span>
+            Gastronomía Regional
+          </h3>
+          <p class="text-[#FFFFFF] leading-relaxed text-justify">
+            Los hornitos —pequeños puestos típicos— ofrecen una variedad de platos tradicionales como empanadas, humitas, tamales, locro, guiso de lentejas, y postres caseros. Cada bocado cuenta una historia ancestral, transmitida por generaciones.
+          </p>
+        </section>
+
+        <!-- Arte y Folklore -->
+        <section>
+          <h3 class="text-lg font-semibold text-[#00CED1] mb-2 flex items-center">
+            <span class="mr-2">💃</span>
+            Arte y Folklore
+          </h3>
+          <p class="text-[#FFFFFF] leading-relaxed text-justify">
+            La feria también es escenario de espectáculos con artistas locales y nacionales. Ballets folklóricos, cantantes, grupos musicales y ganadores del certamen Pre Hornitos 2025 se presentan en distintos horarios, con entrada libre y gratuita en varias funciones.
+          </p>
+        </section>
+
+        <!-- Cultura Viva -->
+        <section>
+          <h3 class="text-lg font-semibold text-[#00CED1] mb-2 flex items-center">
+            <span class="mr-2">🎭</span>
+            Cultura Viva
+          </h3>
+          <p class="text-[#FFFFFF] leading-relaxed text-justify">
+            Hornitos es un espacio de encuentro intergeneracional, donde se valoran las raíces culturales y se promueve el talento emergente. Es una oportunidad para que las familias compartan, los jóvenes se conecten con sus tradiciones, y los turistas descubran el alma de Jujuy.
+          </p>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <!-- Footer con el mismo color que el nav -->
+  <footer class="bg-[#1E3F66] p-4 flex justify-between items-center rounded-t-lg shadow-md transition-all duration-300 ease-in-out">
+    <div class="text-[#FFFFFF] font-semibold">Redes sociales</div>
+    <div class="text-[#FFFFFF] font-semibold">Información</div>
+  </footer>
+
+</body>
+</html>
